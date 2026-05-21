@@ -1,0 +1,48 @@
+// Copyright 2026
+// Based on Miryoku ZMK by Manna Harbour.
+
+#include "../miryoku/custom_config.h"
+#include "../miryoku/mapping/37/chocofi_knob.h"
+#include "../miryoku/miryoku.dtsi"
+
+#define CHOCOFI_KNOB_SENSOR_BINDINGS <&inc_dec_kp C_VOL_UP C_VOL_DN>
+
+&{/keymap/BASE} {
+  sensor-bindings = CHOCOFI_KNOB_SENSOR_BINDINGS;
+};
+
+&{/keymap/EXTRA} {
+  sensor-bindings = CHOCOFI_KNOB_SENSOR_BINDINGS;
+};
+
+&{/keymap/TAP} {
+  sensor-bindings = CHOCOFI_KNOB_SENSOR_BINDINGS;
+};
+
+&{/keymap/BUTTON} {
+  sensor-bindings = CHOCOFI_KNOB_SENSOR_BINDINGS;
+};
+
+&{/keymap/NAV} {
+  sensor-bindings = CHOCOFI_KNOB_SENSOR_BINDINGS;
+};
+
+&{/keymap/MOUSE} {
+  sensor-bindings = CHOCOFI_KNOB_SENSOR_BINDINGS;
+};
+
+&{/keymap/MEDIA} {
+  sensor-bindings = CHOCOFI_KNOB_SENSOR_BINDINGS;
+};
+
+&{/keymap/NUM} {
+  sensor-bindings = CHOCOFI_KNOB_SENSOR_BINDINGS;
+};
+
+&{/keymap/SYM} {
+  sensor-bindings = CHOCOFI_KNOB_SENSOR_BINDINGS;
+};
+
+&{/keymap/FUN} {
+  sensor-bindings = CHOCOFI_KNOB_SENSOR_BINDINGS;
+};

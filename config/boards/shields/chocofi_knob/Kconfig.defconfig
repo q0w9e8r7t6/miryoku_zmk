@@ -1,0 +1,9 @@
+if SHIELD_CHOCOFI_KNOB
+
+config ZMK_KEYBOARD_NAME
+    default "Chocofi Knob"
+
+config ZMK_USB
+    default y
+
+endif

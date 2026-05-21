@@ -8,6 +8,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["rp2040_zero"]'
+      board: '["rpi_pico"]'
       shield: '["chocofi_knob"]'
       alphas: '["QWERTY"]'
+      branches: '["zmkfirmware/zmk/v0.3"]'

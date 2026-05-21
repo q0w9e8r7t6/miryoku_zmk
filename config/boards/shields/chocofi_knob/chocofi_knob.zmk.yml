@@ -1,0 +1,10 @@
+file_format: "1"
+id: chocofi_knob
+name: Chocofi Knob
+type: shield
+url: https://github.com/q0w9e8r7t6/miryoku_zmk
+requires: [rpi_pico]
+features:
+  - keys
+  - studio
+  - encoder
