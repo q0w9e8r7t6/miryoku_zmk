@@ -3,7 +3,7 @@ id: chocofi_knob
 name: Chocofi Knob
 type: shield
 url: https://github.com/q0w9e8r7t6/miryoku_zmk
-requires: [rpi_pico]
+requires: [rp2040_zero]
 features:
   - keys
   - studio
