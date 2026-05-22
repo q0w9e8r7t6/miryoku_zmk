@@ -1,0 +1,48 @@
+// Copyright 2026
+// Based on Miryoku ZMK by Manna Harbour.
+
+#include "../miryoku/custom_config.h"
+#include "../miryoku/mapping/38/pabile38.h"
+#include "../miryoku/miryoku.dtsi"
+
+#define PABILE38_SENSOR_BINDINGS <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>
+
+&{/keymap/BASE} {
+  sensor-bindings = PABILE38_SENSOR_BINDINGS;
+};
+
+&{/keymap/EXTRA} {
+  sensor-bindings = PABILE38_SENSOR_BINDINGS;
+};
+
+&{/keymap/TAP} {
+  sensor-bindings = PABILE38_SENSOR_BINDINGS;
+};
+
+&{/keymap/BUTTON} {
+  sensor-bindings = PABILE38_SENSOR_BINDINGS;
+};
+
+&{/keymap/NAV} {
+  sensor-bindings = PABILE38_SENSOR_BINDINGS;
+};
+
+&{/keymap/MOUSE} {
+  sensor-bindings = PABILE38_SENSOR_BINDINGS;
+};
+
+&{/keymap/MEDIA} {
+  sensor-bindings = PABILE38_SENSOR_BINDINGS;
+};
+
+&{/keymap/NUM} {
+  sensor-bindings = PABILE38_SENSOR_BINDINGS;
+};
+
+&{/keymap/SYM} {
+  sensor-bindings = PABILE38_SENSOR_BINDINGS;
+};
+
+&{/keymap/FUN} {
+  sensor-bindings = PABILE38_SENSOR_BINDINGS;
+};

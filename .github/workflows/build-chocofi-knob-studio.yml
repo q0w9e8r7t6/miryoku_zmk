@@ -1,4 +1,4 @@
-name: Build Chocofi Knob Studio
+name: Build Pabile38 Studio
 
 on:
   workflow_dispatch:
@@ -9,5 +9,5 @@ jobs:
     secrets: inherit
     with:
       board: '["rp2040_zero"]'
-      shield: '["chocofi_knob"]'
+      shield: '["pabile38"]'
       alphas: '["QWERTY"]'
